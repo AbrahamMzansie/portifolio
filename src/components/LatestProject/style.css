@@ -1,0 +1,27 @@
+.projectImgContainer {
+  width: 700px;
+  overflow: hidden;
+  margin : 50px;
+}
+.projectImgContainer img {
+  max-width: 100%;
+}
+.projectPortifolioContainer{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: "center",
+ 
+}
+
+@media screen and (max-width : 768px){
+  .projectImgContainer{
+     width : 100%;
+     margin: 0;
+     padding : 20px;
+     box-sizing: border-box;
+  }
+  .projectPortifolioContainer{
+    margin-top: 50px;
+  }
+}

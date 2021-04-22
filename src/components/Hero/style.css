@@ -1,0 +1,10 @@
+.meRightImgContainer{
+    width: 296px;
+    height: 350px;
+   
+}
+.meRightImgContainer img{
+    max-width: 100%;
+    max-height: 100%;
+    
+}

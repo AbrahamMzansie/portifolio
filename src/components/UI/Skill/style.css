@@ -1,0 +1,12 @@
+.skillContainer{
+   width: 80px;
+   height: 80px;
+   overflow: hidden;
+   align-items: flex-end;
+}
+.skill{
+    width: 250px;
+    padding: 10px;
+    
+    
+}
