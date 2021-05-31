@@ -5,7 +5,8 @@ import { colors } from "../UI/style";
 const Button = (props) => {
   return (
     <a
-      href=""
+      href={props.to ? props.to : ""}
+      target = {props.target ? props.target : ""}
       style={{
         padding: "10px 20px",
         boxSizing: "border-box",

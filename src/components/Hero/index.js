@@ -17,11 +17,9 @@ const Hero = (props) => {
             Full Stack Developer in Javascript
           </p>
           <div className="flexRow" style={{ margin: "30px 0" }}>
-            <div>
-              <Button label="Hire Me"></Button>
-            </div>
+           
             <div className="mlr-10">
-              <Button inverse label="Download CV"></Button>
+              <Button target = "_blank" to = "https://github.com/AbrahamMzansie/curriculumn-vitae/blob/main/Copy_of_Abraham_Nkomo_CV.pdf" label="Download CV"></Button>
             </div>
           </div>
         </div>

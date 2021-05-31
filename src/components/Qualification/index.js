@@ -61,11 +61,9 @@ const Qualification = (props) => {
             }}
           >
             <div className="mlr-10">
-              <Button label="Hire Me"></Button>
+            <Button target = "_blank" to = "https://github.com/AbrahamMzansie/curriculumn-vitae/blob/main/Copy_of_Abraham_Nkomo_CV.pdf" label="Download CV"></Button>
             </div>
-            <div className="mlr-10">
-              <Button inverse label="Download CV"></Button>
-            </div>
+            
           </div>
         </div>
         <div>
