@@ -12,7 +12,7 @@ const Hero = (props) => {
           <p className="upperCase bold-500 textColor ls-1 mtb-10">
             <span className="primaryColor">Hello , </span> i am Abraham Nkomo
           </p>
-          <h1 className="textColor ls-1 mtb-10">Software Engineer</h1>
+          <h1 className="textColor ls-1 mtb-10">Software Engineer  with <br/> eight years of experience <br/>as oracle adf developer</h1>
           <p className="font-12 grayColor mtb-10">
             Full Stack Developer in Javascript
           </p>
