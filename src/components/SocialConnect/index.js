@@ -10,7 +10,10 @@ const SocialConnect = (props) => {
       <a className="socialLink" href="#">
         <img src={socialIcon.instagram}></img>
       </a>
-      <a className="socialLink" href="#">
+      <a
+        className="socialLink"
+        href="https://www.linkedin.com/in/abraham-nkomo-0977a128/"
+      >
         <img src={socialIcon.linkedin}></img>
       </a>
       <a className="socialLink" href="#">
