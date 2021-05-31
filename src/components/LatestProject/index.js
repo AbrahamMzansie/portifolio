@@ -16,7 +16,6 @@ import kaydeex_websites from "../../assets/projects/kaydeex_websites.png";
 import "./style.css";
 
 const LatestProject = (props) => {
- 
   const completedProjest = [
     {
       smallHeading: "Social network project",
@@ -36,7 +35,7 @@ const LatestProject = (props) => {
       link: "https://instagramclone100.herokuapp.com/",
       image: instagram,
     },
-    
+
     {
       smallHeading: "budget project",
       mediumHeading: "React js project",
@@ -69,9 +68,9 @@ const LatestProject = (props) => {
       style={{ marginTop: "50px", marginBottom: "50px" }}
     >
       <MediumHeading
-            style={{ textTransform: "uppercase" , marginBottom : "20px" }}
-            text="Completed Projects"
-          />
+        style={{ textTransform: "uppercase", marginBottom: "20px" }}
+        text="Completed Projects"
+      />
       <Card className="flexRow flexCol  align-center justify-sb">
         <div className="projectPortifolioContainer">
           <SmallHeading className="upperCase" text="Portfolios" />
@@ -87,22 +86,32 @@ const LatestProject = (props) => {
           <img src={image} />
         </div>
       </Card>
-      {completedProjest.map(project=>(
+      {completedProjest.map((project) => (
         <Card className="flexRow flexCol  align-center justify-sb">
-        <div className="projectPortifolioContainer">
-          <SmallHeading className="upperCase" text={project.smallHeading} />
-          <MediumHeading
-            style={{ textTransform: "uppercase" }}
-            text={project.mediumHeading}
-          />
-          <div className="mtb-10 flexRow" style={{ justifyContent: "center" }}>
-            <Button target = "_blank" to = {project.link} label="View Project"></Button>
+          <div className="projectPortifolioContainer">
+            <SmallHeading className="upperCase" text={project.smallHeading} />
+            <MediumHeading
+              style={{ textTransform: "uppercase" }}
+              text={project.mediumHeading}
+            />
+            <div
+              className="mtb-10 flexRow"
+              style={{ justifyContent: "center" }}
+            >
+              <Button
+                target="_blank"
+                to={project.link}
+                label="View Project"
+              ></Button>
+            </div>
           </div>
-        </div>
-        <div className="projectImgContainer">
-          <img src={project.image} />
-        </div>
-      </Card>
+          <div className="projectImgContainer">
+            <a href={project.link} target="_blank">
+              {" "}
+              <img src={project.image} />
+            </a>
+          </div>
+        </Card>
       ))}
     </div>
   );
