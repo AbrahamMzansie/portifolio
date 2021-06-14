@@ -12,6 +12,7 @@ import budget from "../../assets/projects/budget.png";
 import video_search from "../../assets/projects/video_search.png";
 import adopt_village from "../../assets/projects/adopt_village.png";
 import kaydeex_websites from "../../assets/projects/kaydeex_websites.png";
+import mcdonald from "../../assets/projects/mcdonald.png";
 
 import "./style.css";
 
@@ -35,6 +36,13 @@ const LatestProject = (props) => {
       link: "https://instagramclone100.herokuapp.com/",
       image: instagram,
     },
+    {
+      smallHeading: "Mcdonald Self Order Kiosk",
+      mediumHeading: "MERN stack project",
+      link: "https://mcdonald-self-order.herokuapp.com/",
+      image: mcdonald,
+    },
+
 
     {
       smallHeading: "budget project",
@@ -60,6 +68,7 @@ const LatestProject = (props) => {
       link: "http://www.adopt-village.co.za/",
       image: adopt_village,
     },
+    
   ];
   return (
     <div
